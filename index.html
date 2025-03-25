@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printer Support USA | Expert Repair for All Printer Brands</title>
+    <meta name="description" content="Professional printer repair and support services across the USA for all major printer brands including HP, Epson, Canon, Brother, and more.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom CSS */
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+        .printer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .service-card:hover .service-icon {
+            transform: scale(1.1);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .animate-bounce-slow {
+            animation: bounce-slow 3s infinite;
+        }
+        @keyframes bounce-slow {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#" class="flex items-center">
+                    <i class="fas fa-print text-3xl text-blue-600 mr-2"></i>
+                    <span class="text-2xl font-bold text-blue-800">PrinterSupportUSA</span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-blue-600 font-medium hover:text-blue-800 transition">Home</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                <a href="#brands" class="text-gray-600 hover:text-blue-600 transition">Printer Brands</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About Us</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4 shadow-lg">
+            <a href="#home" class="block py-2 text-blue-600 font-medium">Home</a>
+            <a href="#services" class="block py-2 text-gray-600 hover:text-blue-600">Services</a>
+            <a href="#brands" class="block py-2 text-gray-600 hover:text-blue-600">Printer Brands</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About Us</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20 md:py-32">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Expert Printer Support Across the USA</h1>
+                <p class="text-xl mb-8 opacity-90">Fast, reliable repair services for all printer brands. Our certified technicians provide on-site and remote support nationwide.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-lg text-center transition duration-300">Get Support Now</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" alt="Printer Illustration" class="w-64 h-64 md:w-80 md:h-80 animate-bounce-slow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="bg-gray-50 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">15,000+</div>
+                    <div class="text-gray-600">Printers Repaired</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+                    <div class="text-gray-600">Printer Brands Supported</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                    <div class="text-gray-600">Satisfaction Guarantee</div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">24/7</div>
+                    <div class="text-gray-600">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Printer Support Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive solutions for all your printer issues, from simple paper jams to complex network printing problems.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">On-Site Repairs</h3>
+                    <p class="text-gray-600 mb-4">Our certified technicians will come to your home or office to diagnose and fix your printer issues quickly.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-headset text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Remote Support</h3>
+                    <p class="text-gray-600 mb-4">Get instant help from our experts through phone or online support for software and connectivity issues.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-truck text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Parts Replacement</h3>
+                    <p class="text-gray-600 mb-4">We supply and install genuine replacement parts for all printer models including ink cartridges, rollers, and fusers.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-network-wired text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Network Setup</h3>
+                    <p class="text-gray-600 mb-4">Professional installation and configuration of network printers for seamless office-wide printing.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-broom text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Maintenance & Cleaning</h3>
+                    <p class="text-gray-600 mb-4">Regular maintenance services to keep your printer running smoothly and extend its lifespan.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="service-card bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 p-6">
+                    <div class="service-icon bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6 transition duration-300">
+                        <i class="fas fa-business-time text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Business Solutions</h3>
+                    <p class="text-gray-600 mb-4">Customized printer fleet management and support packages for businesses of all sizes.</p>
+                    <a href="#" class="text-blue-600 font-medium hover:text-blue-800 flex items-center">
+                        Learn more <i class="fas fa-chevron-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Printer Brands Section -->
+    <section id="brands" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">We Support All Printer Brands</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">From home inkjets to industrial laser printers, our technicians are trained on all major brands.</p>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <p class="text-lg text-gray-600 mb-6">Don't see your printer brand listed? We likely still support it!</p>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg inline-block transition duration-300">Contact Us to Verify</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Problems Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Common Printer Problems We Fix</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">These are just a few of the many issues our technicians can resolve for you.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Problem 1 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Paper Jams</h3>
+                    <p class="text-gray-600">Stuck paper causing frustration? We'll carefully remove jams without damaging your printer.</p>
+                </div>
+                
+                <!-- Problem 2 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Ink/Toner Issues</h3>
+                    <p class="text-gray-600">Problems with cartridges not being recognized, leaking, or poor print quality.</p>
+                </div>
+                
+                <!-- Problem 3 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Connectivity Problems</h3>
+                    <p class="text-gray-600">Wi-Fi, USB, or network connection issues preventing printing from your devices.</p>
+                </div>
+                
+                <!-- Problem 4 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Error Messages</h3>
+                    <p class="text-gray-600">Deciphering and resolving cryptic error codes that stop your printer from working.</p>
+                </div>
+                
+                <!-- Problem 5 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Slow Printing</h3>
+                    <p class="text-gray-600">Diagnosing and fixing issues causing your printer to work slower than it should.</p>
+                </div>
+                
+                <!-- Problem 6 -->
+                <div class="bg-gray-50 rounded-lg p-6 border-l-4 border-blue-600">
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Driver & Software</h3>
+                    <p class="text-gray-600">Installation, updates, and troubleshooting for printer drivers and software.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
+                <p class="text-xl opacity-90 max-w-3xl mx-auto">Thousands of satisfied customers across the USA trust us with their printer repairs.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-blue-700 rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mb-6 opacity-90">"My HP printer stopped working right before a big project deadline. PrinterSupportUSA had a technician at my office within 2 hours who fixed the issue completely. Lifesavers!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-800 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">JS</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">James Smith</h4>
+                            <p class="text-sm opacity-80">Small Business Owner, Chicago</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-blue-700 rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mb-6 opacity-90">"The remote support technician walked me through fixing my Epson printer's connectivity issues. Didn't need to wait for a service visit and it was all fixed in 20 minutes!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-800 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">MR</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Maria Rodriguez</h4>
+                            <p class="text-sm opacity-80">Teacher, Miami</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-blue-700 rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="mb-6 opacity-90">"Our office has 12 printers from different brands. PrinterSupportUSA manages them all under one service contract, saving us time and money. Highly recommend for businesses!"</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-800 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">TW</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Thomas Wilson</h4>
+                            <p class="text-sm opacity-80">IT Manager, New York</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About PrinterSupportUSA</h2>
+                    <p class="text-lg text-gray-600 mb-6">Founded in 2010, PrinterSupportUSA has grown to become one of the most trusted printer repair services in the United States. Our team of certified technicians has collectively repaired over 15,000 printers across all major brands.</p>
+                    <p class="text-lg text-gray-600 mb-6">We pride ourselves on fast response times, transparent pricing, and solutions that actually work. Unlike many repair services, we don't believe in temporary fixes - we address the root cause of your printer problems.</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-800 rounded-full p-3 mr-4">
+                            <i class="fas fa-award text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">Certified Technicians</h4>
+                            <p class="text-gray-600">All our technicians are manufacturer-certified</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Technician repairing printer" class="rounded-lg shadow-lg w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Fix Your Printer?</h2>
+            <p class="text-xl opacity-90 mb-8 max-w-3xl mx-auto">Don't let printer problems slow you down. Contact us today for fast, reliable service.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 font-bold py-3 px-8 rounded-lg inline-block transition duration-300">
+                    <i class="fas fa-envelope mr-2"></i> Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact Printers Guide USA</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Have questions or need immediate assistance? Reach out to our friendly support team.</p>
+            </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-sm p-8 h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                        
+                        <div class="mb-8">
+                            <h4 class="text-lg font-bold text-gray-800 mb-4">Service Areas</h4>
+                            <p class="text-gray-600 mb-4">We provide printer support services across the entire United States, with technicians available in all major cities and most rural areas.</p>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                    <span class="text-gray-700">On-site support</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                    <span class="text-gray-700">Remote assistance</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                    <span class="text-gray-700">Business contracts</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                                    <span class="text-gray-700">Home services</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Headquarters</h4>
+                                    <p class="text-gray-600">123 Tech Street, Suite 456<br>San Francisco, CA 94107</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Email Support</h4>
+                                    <p class="text-gray-600">support@printersupportusa.com<br>Response within 1 hour</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Get answers to common questions about our printer support services.</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>What areas do you service?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>We provide printer support services across all 50 states in the USA. Our technicians are available in all major metropolitan areas and most rural locations. For remote areas, we may schedule service visits slightly further in advance or offer remote support options when possible.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>How quickly can you respond to service requests?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Response times vary by location and service type:</p>
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li>Remote support: Typically within 1 hour</li>
+                            <li>On-site in major cities: Same day or next day</li>
+                            <li>Rural areas: Usually within 2-3 business days</li>
+                            <li>Emergency business support: 4-hour response available in most areas</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>Do you use genuine manufacturer parts?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Yes, we always prefer to use genuine manufacturer parts for all repairs. However, for older printers where OEM parts may no longer be available, we will discuss high-quality third-party alternatives with you before proceeding with any repairs.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>What's your pricing structure?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Our pricing is transparent and based on the type of service:</p>
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li>Diagnostic fee: $49 (waived if you proceed with repair)</li>
+                            <li>Remote support: $79/hour (minimum 30 minutes)</li>
+                            <li>On-site service: $99 service call + $89/hour labor</li>
+                            <li>Parts are quoted separately after diagnosis</li>
+                            <li>Business contracts available with discounted rates</li>
+                        </ul>
+                        <p class="mt-2">We'll always provide an estimate before starting any work.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>Do you offer warranties on your repairs?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Yes, all our repairs come with a warranty:</p>
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li>Labor: 90-day warranty on all repairs</li>
+                            <li>Parts: Manufacturer's warranty (typically 1 year) or 90 days for third-party parts</li>
+                            <li>Remote support: 30-day follow-up guarantee</li>
+                        </ul>
+                        <p class="mt-2">If the same issue recurs within the warranty period, we'll fix it at no additional charge.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 6 -->
+                <div class="mb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg text-gray-800 focus:outline-none">
+                        <span>Can you help with printer setup and installation?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Absolutely! Our services include:</p>
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li>New printer setup and configuration</li>
+                            <li>Driver installation on all devices</li>
+                            <li>Network/wireless setup</li>
+                            <li>Multi-function device configuration (scanning, faxing)</li>
+                            <li>Printer sharing setup for offices</li>
+                            <li>Migration from old to new printers</li>
+                        </ul>
+                        <p class="mt-2">We can help you get your new or existing printer fully operational.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Printers Guide</h3>
+                    <p class="text-gray-400 mb-6">Professional printer repair and support services across the United States for all major printer brands.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#brands" class="text-gray-400 hover:text-white transition">Printer Brands</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">On-Site Repairs</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Remote Support</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Parts Replacement</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Network Setup</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Business Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contact Info</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-blue-500"></i>
+                            <span>123 Tech Street, Suite 456<br>San Francisco, CA 94107</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-blue-500"></i>
+                            <span>support@printersupportusa.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-3 text-blue-500"></i>
+                            <span>24/7 Support Available</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 PrinterSupportUSA. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition opacity-0 invisible hover:bg-blue-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div class="text-center">
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-check text-green-600 text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Thank You!</h3>
+                <p class="text-gray-600 mb-6">Your message has been sent successfully. Our support team will contact you shortly.</p>
+                <button id="closeModal" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // FAQ Accordion
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Toggle answer visibility
+                answer.classList.toggle('hidden');
+                
+                // Rotate icon
+                if (answer.classList.contains('hidden')) {
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    icon.style.transform = 'rotate(180deg)';
+                }
+                
+                // Close other open answers
+                faqQuestions.forEach(q => {
+                    if (q !== question) {
+                        q.nextElementSibling.classList.add('hidden');
+                        q.querySelector('i').style.transform = 'rotate(0deg)';
+                    }
+                });
+            });
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Contact Form Submission
+        const contactForm = document.getElementById('contactForm');
+        const successModal = document.getElementById('successModal');
+        const closeModal = document.getElementById('closeModal');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Here you would typically send the form data to your server
+            // For this example, we'll just show the success modal
+            
+            // Reset form
+            contactForm.reset();
+            
+            // Show success modal
+            successModal.classList.remove('hidden');
+        });
+        
+        closeModal.addEventListener('click', () => {
+            successModal.classList.add('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
